@@ -4,5 +4,11 @@ spring:
     username: root
     password: 1234
 
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
 server:
   port: 8081
+

@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "blog_posts")
+//@Table(name = "blog_posts")
 public class PostEntity {
     @Id
     private Long id;

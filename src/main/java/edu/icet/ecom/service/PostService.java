@@ -23,6 +23,8 @@ public class PostService {
 
         for(PostEntity postEntity: postEntities){
             postDTOS.add(mapper.map(postEntity,PostDTO.class));
+
+
 //            PostDTO postDTO = new PostDTO();
 
 //            postDTO.setId(postEntity.getId());
